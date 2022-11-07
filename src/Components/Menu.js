@@ -5,7 +5,13 @@ const Menu = () => {
 
     return (
       <div className="colorOptions">
-          {/* TODO */}
+          {<div className="colorOptions">
+            <Color color="red" handleClick={this.props.handleClick}></Color>
+            <Color color="blue" handleClick={this.props.handleClick}></Color>
+            <Color color="purple" handleClick={this.props.handleClick}></Color>
+            <Color color="green" handleClick={this.props.handleClick}></Color>
+        </div>
+      }
       </div>
     );
 }
